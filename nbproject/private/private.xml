@@ -10,8 +10,10 @@
             <file>file:/D:/JAVA/NetBeansProjects/ChessSystem/src/chesssystem/ChessSystem.java</file>
             <file>file:/D:/JAVA/NetBeansProjects/ChessSystem/src/chess/ChessPiece.java</file>
             <file>file:/D:/JAVA/NetBeansProjects/ChessSystem/src/chess/ChessPosition.java</file>
+            <file>file:/D:/JAVA/NetBeansProjects/ChessSystem/src/chess/pieces/King.java</file>
             <file>file:/D:/JAVA/NetBeansProjects/ChessSystem/src/boardgame/Position.java</file>
             <file>file:/D:/JAVA/NetBeansProjects/ChessSystem/src/chess/ChessException.java</file>
+            <file>file:/D:/JAVA/NetBeansProjects/ChessSystem/src/chess/pieces/Rook.java</file>
         </group>
     </open-files>
 </project-private>
