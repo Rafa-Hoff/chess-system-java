@@ -24,6 +24,7 @@ public class ChessSystem {
         
         ChessMatch chessmatch = new ChessMatch();
         while (true) {
+            UI.clearScreen();
             UI.printBoard(chessmatch.getPieces());
             System.out.print("\nSource: ");
             ChessPosition source = UI.readChessPosition(sc);
