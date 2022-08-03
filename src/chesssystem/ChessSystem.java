@@ -29,7 +29,7 @@ public class ChessSystem {
         ChessMatch chessmatch = new ChessMatch();
         List<ChessPiece> captured = new ArrayList<>();
         
-        while (true) {
+        while (!chessmatch.getCheckMate()) {
             try {
                 UI.clearScreen();
                 UI.printMatch(chessmatch, captured);
@@ -58,6 +58,8 @@ public class ChessSystem {
                 sc.nextLine();
             }
         }
+        UI.clearScreen();
+        UI.printMatch(chessmatch, captured);
     }
     
 }
